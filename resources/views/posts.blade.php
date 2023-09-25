@@ -12,7 +12,7 @@
 
     <article>
 
-        <h1><a href="/post">My First Blog Post</a></h1>
+        <h1><a href="/post/my-first-post">My First Blog Post</a></h1>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
             molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
@@ -24,7 +24,7 @@
 
     <article>
 
-        <h1><a href="/post">My Second Blog Post</a></h1>
+        <h1><a href="/post/my-second-post">My Second Blog Post</a></h1>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
             molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
@@ -37,7 +37,7 @@
 
     <article>
 
-        <h1><a href="/post">My Third Blog Post</a></h1>
+        <h1><a href="/post/my-third-post">My Third Blog Post</a></h1>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
             molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum

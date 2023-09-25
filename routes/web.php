@@ -17,6 +17,17 @@ Route::get('/', function () {
     return view('posts');
 });
 
-Route::get("/post", function () {
-    return view('post', ['post' => "hello"]);
-});
+
+
+Route::get("/post/{post}", function ($id) {
+    // return $id;
+
+    $path = __DIR__ . "/../public/posts/{$id}.html";;
+    if (!file_exists($path)) {
+        abort(404);
+    }
+
+    $post = file_get_contents($path);
+
+    return view('post', ['post' => $post]);
+})->where('post', '[A-z]+');
