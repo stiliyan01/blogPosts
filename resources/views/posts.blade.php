@@ -10,45 +10,9 @@
 <body>
 
 
-    <article>
-
-        <h1><a href="/post/my-first-post">My First Blog Post</a></h1>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-           </p>
-
-    </article>
-
-    <article>
-
-        <h1><a href="/post/my-second-post">My Second Blog Post</a></h1>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-            obcaecati tenetur iure eius earum ut molestias architecto voluptate aliqua
-            quia. Quo neque err </p>
-
-    </article>
-
-    <article>
-
-        <h1><a href="/post/my-third-post">My Third Blog Post</a></h1>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesen
-            tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-            quia. Quo neque error r</p>
-
-    </article>
-
-
-
+    @foreach ($posts as $post)
+        {!!$post!!}
+    @endforeach
 
 <script src="./js/app.js"></script>
 </body>
