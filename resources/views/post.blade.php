@@ -1,9 +1,4 @@
-@extends('layout')
-
-
-@section('content')
-
-
+<x-layout>
 <article>
     <h1>{{$post->title}}</h1>
 
@@ -11,6 +6,7 @@
 </article>
 
 <p><a href="/">Go back</a></p>
-
-
-@endsection
+<x-button :disabled false>
+    Click me!
+</x-button>
+</x-layout>

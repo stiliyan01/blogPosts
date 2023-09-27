@@ -1,7 +1,4 @@
-@extends('layout')
-
-
-@section('content')
+<x-layout>
 
 
     @foreach ($posts as $post)
@@ -12,4 +9,4 @@
     @endforeach
 
 <script src="./js/app.js"></script>
-@endsection
+</x-layout>

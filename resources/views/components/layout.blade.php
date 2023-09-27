@@ -8,6 +8,6 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    @yield('content')
+    {{$slot}}
 </body>
 </html>
