@@ -3,7 +3,8 @@
 
     @foreach ($posts as $post)
     <h1>
-        <a href="post/{{$post->slug}}" class="{{$loop->even?'margin':''}}">{{$post->title}}</a>
+
+        <a href="post/{{$post->id}}" class="{{$loop->even?'margin':''}}">{{$post->title}}</a>
     </h1>
     {{$post->excerpt}}
     @endforeach
